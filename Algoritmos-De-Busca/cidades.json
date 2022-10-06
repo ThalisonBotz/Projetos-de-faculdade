@@ -1,0 +1,220 @@
+[
+   {
+     "Guanambi": [
+       {
+         "Bom Jesus da Lapa": 75
+       },
+       {
+         "Brumado": 140
+       },
+       {
+         "Malhada": 118
+       }
+     ]
+   },
+   {
+     "Bom Jesus da Lapa": [
+       {
+         "Guanambi": 75
+       },
+       {
+         "Macaubas": 71
+       }
+     ]
+   },
+   {
+     "Brumado": [
+       {
+         "Guanambi": 140
+       },
+       {
+         "Macaubas": 151
+       },
+       {
+         "Belo Campo": 80
+       },
+       {
+         "Vitoria da Conquista": 99
+       }
+     ]
+   },
+   {
+     "Malhada": [
+       {
+         "Guanambi": 118
+       },
+       {
+         "Monte Azul": 111
+       }
+     ]
+   },
+   {
+     "Macaubas": [
+       {
+         "Bom Jesus da Lapa": 71
+       },
+       {
+         "Brumado": 151
+       }
+     ]
+   },
+   {
+     "Belo Campo": [
+       {
+         "Brumado": 80
+       },
+       {
+         "Candido Sales": 97
+       },
+       {
+         "Salinas": 146
+       }
+     ]
+   },
+   {
+     "Vitoria da Conquista": [
+       {
+         "Brumado": 99
+       },
+       {
+         "Potiragua": 211
+       }
+     ]
+   },
+   {
+     "Monte Azul": [
+       {
+         "Malhada": 111
+       },
+       {
+         "Porterinha": 70
+       }
+     ]
+   },
+   {
+     "Candido Sales": [
+       {
+         "Belo Campo": 97
+       },
+       {
+         "Salinas": 138
+       },
+       {
+         "Potiragua": 101
+       }
+     ]
+   },
+   {
+     "Salinas": [
+       {
+         "Belo Campo": 146
+       },
+       {
+         "Candido Sales": 138
+       },
+       {
+         "Montes Claros": 120
+       }
+     ]
+   },
+   {
+     "Potiragua": [
+       {
+         "Candido Sales": 101
+       },
+       {
+         "Vitoria da Conquista": 211
+       },
+       {
+         "Pedra Azul": 90
+       },
+       {
+         "Itagimirim": 85
+       }
+     ]
+   },
+   {
+     "Porterinha": [
+       {
+         "Monte Azul": 70
+       },
+       {
+         "Montes Claros": 75
+       }
+     ]
+   },
+   {
+     "Pedra Azul": [
+       {
+         "Potiragua": 90
+       }
+     ]
+   },
+   {
+     "Itagimirim": [
+       {
+         "Potiragua": 85
+       },
+       {
+         "Santa Cruz Cabralia": 98
+       },
+       {
+         "Ilheus": 142
+       }
+     ]
+   },
+   {
+     "Montes Claros": [
+       {
+         "Porterinha": 75
+       },
+       {
+         "Salinas": 120
+       }
+     ]
+   },
+   {
+     "Santa Cruz Cabralia": [
+       {
+         "Itagimirim": 98
+       },
+       {
+         "Porto Seguro": 86
+       }
+     ]
+   },
+   {
+     "Ilheus": [
+       {
+         "Itagimirim": 142
+       },
+       {
+         "Itabuna": 92
+       }
+     ]
+   },
+   {
+     "Porto Seguro": [
+       {
+         "Santa Cruz Cabralia": 86
+       }
+     ]
+   },
+   {
+     "Itabuna": [
+       {
+         "Ilheus": 92
+       },
+       {
+         "Boa Nova": 87
+       }
+     ]
+   },
+   {
+     "Boa Nova": [
+       {
+         "Itabuna": 87
+       }
+     ]
+   }
+ ]
