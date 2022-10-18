@@ -19,7 +19,7 @@ def fun2():
         print(" Fun2 sem semaforo disponivel ")
         sleep(1)
     else:
-        print("semaforo disponível")
+        print("semaforo disponivel")
         for loop in range(1, 5):
             print(f" Fun2 trabalhando {loop} ")
             sleep(1)
