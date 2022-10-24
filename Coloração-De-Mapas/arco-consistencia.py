@@ -1,16 +1,17 @@
 import networkx as nx
-
+#Importação do pacote NetworkX, ultilizado na manipulação de grafos.
 G = nx.Graph()
-
+# Criação de um objeto do tipo gráfico.
 with open("arquivo.txt") as arquivo:
+#Abrindo o arquivo txt que contem o grafo.
     arq = arquivo.readlines()[0] 
     linha = arq.split()
     vertices = int(linha[0])
     arestas = int(linha[1])
-
+     #Definindo as linhas, arestas e vertices do arquivo aberto.
 for i in range(vertices):
     G.add_node(i)
-
+    #Criando o primeiro nó. 
 for i in range(1, arestas+1):
     with open("arquivo.txt") as arquivo:
         arq = arquivo.readlines()[i]
@@ -20,10 +21,14 @@ for i in range(1, arestas+1):
         G.add_edge(v, u)
 
 variaveis = [i for i in G.nodes]
+#Criando variaveis de acordo com os nós.
 restricoes = [list(G.adj[i]) for i in range(vertices)]
+#Definindo as restrições de funcionamento do codigo, o mesmo so funciona se existir elementos nos vertices.
 dominios = [["vermelho", "verde", "azul"] for i in range(vertices)]
+#Cores que podem ser atribuidas.
 atribuicoes = { }
 arcos = []
+#Definição de arcos
 
 #Preenche a fila com os arcos
 def preencher():
@@ -51,7 +56,7 @@ def AC3():
     print("\nVizinhos:")
     for i in range(vertices):
         print(i, "-", restricoes[i] )
-    print("\nSolução:", atribuicoes, "\n")
+    print("\nResultado:", atribuicoes, "\n")
 
     return True
 
@@ -80,3 +85,4 @@ def revisar(Xi, Xj):
     return revisado
 
 AC3()
+#Executa a função de coloração por arco consistencia.
