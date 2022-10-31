@@ -43,7 +43,7 @@ def colorirGrafo():
     print("\nVizinhos:")
     for i in range(vertices):
         print(i, "-", restricoes[i] )
-    print("\Resultado:", resultado, "\n")
+    print("Resultado:", resultado, "\n")
     
 colorirGrafo()
 #Executando a função.
